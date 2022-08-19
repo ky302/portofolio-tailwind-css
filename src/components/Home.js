@@ -34,8 +34,8 @@ const Home = () => {
                         <h1 className="font-bold text-4xl pb-5">    
                         Ahmad Subekhi
                         </h1>
-                        <div className="font-normal text-lg pb-12">
-                        self-driven, quick starter, passionate programmer with <br /> a curious mind who loves solving a very complex, very <br />  challenging real-world problems.
+                        <div className="font-normal max-w-md text-lg pb-12">
+                        self-driven, quick starter, passionate programmer with a curious mind who loves solving a very complex, very challenging real-world problems.
                         </div>
                         <button onClick={saveFile} className="py-2 px-8 hover:bg-orange-700 rounded-md text-white drop-shadow-3xl bg-transparent shadow-md shadow-orange-600">
                         Dowload CV

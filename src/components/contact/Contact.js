@@ -12,15 +12,15 @@ const Contact = () => {
                     <h2 className=' text-5xl lg:text-6xl text-center lg:text-left font-bold text-orange-600 py-10'> Contacts</h2>
                     <form>
                         <div className="mb-6">
-                            <label htmlFor="name" className="block mb-2 text-sm font-medium text-orange-600 dark:text-orange-300">Name</label>
+                            <label htmlFor="name" className="block mb-2 text-sm font-medium text-orange-600 dark:text-orange-600">Name</label>
                             <input className="bg-transparent appearance-none border-2 border-orange-600 rounded-xl w-full py-2 px-4 text-white leading-tight focus:outline-none focus:bg-transparent focus:border-orange-500" id="inline-full-name" type="text" required />
                         </div>
                         <div className="mb-6">
-                            <label htmlFor="email" className="block mb-2 text-sm font-medium text-orange-600 dark:text-orange-300">Your email</label>
+                            <label htmlFor="email" className="block mb-2 text-sm font-medium text-orange-600 dark:text-orange-600">Your email</label>
                             <input className="bg-transparent appearance-none border-2 border-orange-600 rounded-xl w-full py-2 px-4 text-white leading-tight focus:outline-none focus:bg-transparent focus:border-orange-500" id="email" type="email" required />                       
                         </div>
                         <div className="mb-6">
-                            <label htmlFor="message" className="block mb-2 text-sm font-medium text-orange-600 dark:text-orange-400">Your message</label>                            
+                            <label htmlFor="message" className="block mb-2 text-sm font-medium text-orange-600 dark:text-orange-600">Your message</label>                            
                             <textarea id="message" rows={4} className="block p-2.5 w-full text-sm bg-transparent appearance-none border-2 border-orange-600 rounded-xl w-full py-2 px-4 text-white leading-tight focus:outline-none focus:bg-transparent focus:border-orange-500" placeholder="Leave a comment..." defaultValue={""} />
                         </div>
                         
