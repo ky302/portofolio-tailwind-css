@@ -6,21 +6,14 @@ import Home from "./components/Home";
 
 import NavigationBar from "./components/NavigationBar";
 
-
-
 function App() {
-
- 
-  
   return (
     <>
       <div className=" bg-neutral-900">
-        <NavigationBar/>
-        <Home/>
-        <Fotter/>
-        
+        <NavigationBar />
+        <Home />
+        <Fotter />
       </div>
-      
     </>
   );
 }
